@@ -49,11 +49,11 @@ local LOOP_INTERVAL   = 0.2   -- seconds between each write cycle
 
 -- Hardcoded fallback offsets (used if fetch fails)
 local FALLBACK_OFFSETS = {
-    fake_dm   = 0x74f8758,  -- FakeDataModel::Pointer
-    real_dm   = 0x1D0,      -- FakeDataModel::RealDataModel
+    fake_dm   = 0x7E84228,  -- FakeDataModel::Pointer
+    real_dm   = 0x1C0,      -- FakeDataModel::RealDataModel
     workspace = 0x178,      -- DataModel::Workspace
-    world     = 0x408,      -- Workspace::World
-    phys_rate = 0x678,      -- World::worldStepsPerSec
+    world     = 0x3D8,      -- Workspace::World
+    phys_rate = 0x660,      -- World::worldStepsPerSec
 }
 
 -- ──────────────────────────────────────────────
